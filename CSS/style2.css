@@ -1,0 +1,23 @@
+li {
+	list-style-type:square;
+}
+
+h2 {
+	color: blue;
+}
+
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 0 20px;
+}
+
+p {
+	font-size: 18px;
+
+}
+
+span {
+	font-size: 2rem;
+	text-transform:capitalize;

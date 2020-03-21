@@ -1,0 +1,91 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+	padding-top: 3em;
+}
+
+.loveh {
+	font-size: 6rem;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #FFFCFC;
+}
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+
+.heart {
+	display: flex;
+	
+}
+
+.heart > img{
+	max-width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+.buffer {
+	height: 4rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #F05F44;
+	border-color: #F05F44; 
+}
+
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
+
+.btn-xl	{
+	padding: 1rem 2rem;
+}
+
+.carousel-indicators {
+	top: 33rem;
+  	justify-content:flex-center;
+  	margin:0;
+  	
+}
+ 
+.carousel-inner {
+width: 100%; /* use this, or not */
+
+margin: auto;
+}
+
+.card {
+	width: 18rem;
+	height: 500px;
+	margin: auto;
+}
+
+.card > img {
+	max-height: 200px;
+
+}

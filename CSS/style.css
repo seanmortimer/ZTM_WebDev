@@ -1,0 +1,38 @@
+ body {
+	background-image: url(background2.jpg);
+	background-size: cover;
+}
+
+h2 {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgb(255, 176, 170, 0.6);
+	cursor: pointer;
+
+}
+
+.webtext {
+	border: 5px solid rgba(200, 20, 20, 0.2);
+	background: rgba(180, 0, 0, 0.1);
+}
+
+p {
+	line-height: 20px;
+	/*font-weight:*/
+	font-size: 150%;
+	font-family: 'Sulphur Point', sans-serif;
+	color: green;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
