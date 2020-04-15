@@ -40,7 +40,8 @@ const getData = async function() {
   console.log('albums', albums);
 }
 
-// #3)Add a try catch block to the #2 solution in order to catch any errors. // Now, use the given array containing an invalid url, so you console.log  //your error with 'oooooops'.
+// #3)Add a try catch block to the #2 solution in order to catch any errors. 
+// Now, use the given array containing an invalid url, so you console.log  //your error with 'oooooops'.
 const urls = [
   'https://jsonplaceholder.typicode.com/users',
   'https://jsonplaceholdeTYPO.typicode.com/posts',
