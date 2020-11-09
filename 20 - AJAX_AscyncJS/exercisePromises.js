@@ -18,7 +18,7 @@ promise1.then(result => console.log(result));
 
 const promise2 = Promise.resolve(
     setTimeout(() => {
-      console.log('Success!');
+      console.log('Yaaassss!');
     }, 4000)
 );
 
